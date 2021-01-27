@@ -1,0 +1,154 @@
+* {
+   /* outline: 1px dotted red; */
+   margin: 0px;
+   padding: 0px;
+}
+
+#container {
+    margin: 0px auto;
+    width: 1000px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 11%, rgba(62,41,106,1) 48%, rgba(142,96,199,1) 80%);
+    padding: 10px;
+    min-height: 800px;
+
+
+}
+
+#heading {
+    margin: 0px auto;
+    width: 1000px;
+    min-height: 50px;
+    display: inline-block;
+    background-color: white;
+}
+
+h1 {
+margin-left: 10px;
+padding: 10px;
+font-family: 'Comic Neue', cursive;
+}
+
+h2 {
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1, h2 {
+    display:inline;
+}
+
+h3, h4 {
+    background: linear-gradient(#b4b4b7,#8b8a95,#b4b4b7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    padding: 10px;
+}
+
+p, a {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main_content {
+    width: 1000px;
+    padding: 15px 12px 15px 20px;
+}
+
+#name {
+    margin: 0px auto;
+    min-height: 20px;
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+}
+
+#subheading {
+    margin-left: 600px;
+    min-height: 20px;
+    display: inline-block;
+    width: 300px;
+}
+
+#jayne_photo {
+    max-width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    border: 5px solid gray;
+}
+
+#introduction {
+    max-width: 484px;
+    height: 276px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: gray;
+}
+
+.projects {
+    width: 290px;
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+    background: linear-gradient(white, #ffffff, #dacbd8)
+}
+
+.project_text {
+    font-size: 14px;
+    height: 140px;
+    text-align: justify;
+}
+
+.project_photo {
+    max-width: 100%;
+}
+
+.project_languages {
+    padding: 5px 0px 5px 10px;
+    box-sizing: border-box;
+}
+
+.project_languages_img {
+    max-width: 40px;
+    margin: 5px;
+}
+
+.project_link_box {
+    height: 40px;
+    text-align: center;
+}
+
+.project_link {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 14px
+}
+
+#footer {
+    box-sizing: border-box;
+    width: 1000px;
+    padding-bottom: 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.socials {
+    max-width: 20px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.links {
+    font-style: italic;
+    padding: 0px;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
